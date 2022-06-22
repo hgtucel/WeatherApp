@@ -11,6 +11,8 @@
 		15079C62286387C600BBB4DF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15079C61286387C600BBB4DF /* ContentView.swift */; };
 		15079C64286387C700BBB4DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15079C63286387C700BBB4DF /* Assets.xcassets */; };
 		15079C67286387C700BBB4DF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15079C66286387C700BBB4DF /* Preview Assets.xcassets */; };
+		15079C712863897700BBB4DF /* WeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15079C702863897700BBB4DF /* WeatherViewModel.swift */; };
+		15079C732863898E00BBB4DF /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15079C722863898E00BBB4DF /* WeatherModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		15079C63286387C700BBB4DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		15079C66286387C700BBB4DF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		15079C6D286387F800BBB4DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		15079C702863897700BBB4DF /* WeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewModel.swift; sourceTree = "<group>"; };
+		15079C722863898E00BBB4DF /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				15079C61286387C600BBB4DF /* ContentView.swift */,
 				15079C63286387C700BBB4DF /* Assets.xcassets */,
 				15079C65286387C700BBB4DF /* Preview Content */,
+				15079C702863897700BBB4DF /* WeatherViewModel.swift */,
+				15079C722863898E00BBB4DF /* WeatherModel.swift */,
 			);
 			path = WeatherApp;
 			sourceTree = "<group>";
@@ -140,6 +146,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				15079C62286387C600BBB4DF /* ContentView.swift in Sources */,
+				15079C712863897700BBB4DF /* WeatherViewModel.swift in Sources */,
+				15079C732863898E00BBB4DF /* WeatherModel.swift in Sources */,
 				15079C60286387C600BBB4DF /* WeatherAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
