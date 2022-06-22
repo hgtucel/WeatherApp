@@ -8,12 +8,17 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @StateObject var viewModel = WeatherViewModel()
+    
     var body: some View {
         
         NavigationView {
             
             VStack {
-                Text("Weather App")
+                Text(viewModel.timezone ?? "-").font(Font.title)
+                Text(viewModel.temp ?? "-").font(Font.subheadline)
+                Text(viewModel.descText ?? "-").font(Font.body)
             }.navigationTitle("Weather App")
             
         }
